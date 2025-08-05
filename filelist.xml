@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="NT Cyberengineering" steamworkshopid="noneyet" corepackage="false" modversion="0.0.1" gameversion="1.9.8.0" installtime="idk lol" expectedhash="br br patapim">
+	<Afflictions file="%ModDir%/Xml/Afflictions/Brain.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Lungs.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Surgery.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Heart.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Liver.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Kidneys.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Joints.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Muscles.xml" />	
+	<Afflictions file="%ModDir%/Xml/Afflictions/Spinal.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Bones.xml" />
+	<Afflictions file="%ModDir%/Xml/Afflictions/Skin.xml" />	
+	<Afflictions file="%ModDir%/Xml/Afflictions/Underskin.xml" />
+	<Item file="%ModDir%/Xml/Items/Blood/Material.xml" />
+	<Item file="%ModDir%/Xml/Items/Blood/Organs.xml" />
+	<Item file="%ModDir%/Xml/Items/Blood/Surgery.xml" />
+</contentpackage>
