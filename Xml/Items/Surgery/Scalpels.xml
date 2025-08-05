@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<Item name="" identifier="organscalpel_skin" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery,surgerytool" description="" useinhealthinterface="True" scale="0.250">
+      <PreferredContainer primary="toxcontainer" spawnprobability="0.2" />
+      <PreferredContainer primary="locker" />
+      <Fabricate suitablefabricators="fabricator">
+        <RequiredSkill identifier="medical" level="35" />
+        <RequiredSkill identifier="mechanical" level="20" />
+        <RequiredItem identifier="steel" mincondition="0.25" usecondition="true" />
+        <RequiredItem identifier="zinc" mincondition="0.25" usecondition="true" />
+      </Fabricate>
+      <Deconstruct>
+        <Item identifier="zinc" mincondition="0.1" outcondition="0.25" />
+      </Deconstruct>
+      <Price baseprice="35" soldbydefault="true">
+        <Price storeidentifier="merchantmedical" sold="true" multiplier="0.9" minavailable="1" />
+      </Price>
+      <InventoryIcon texture="%ModDir:3190189044%/Images/InventoryItemIconAtlas.png" sourcerect="448,128,64,64" origin="0.5,0.5" />
+      <Sprite texture="%ModDir:3190189044%/Images/InGameItemIconAtlas.png" sourcerect="131,203,122,8" depth="0.55" origin="0.5,0.5" />
+      <Body width="65" height="15" density="50" />
+      <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="40,5" handle1="-7,-5" holdangle="60" reload="1.0">
+        <StatusEffect tags="medical" type="OnUse" target="This,Limb" comparison="and" disabledeltatime="true">
+          <Conditional retractedskin="gte 1" />
+        </StatusEffect>
+      </MeleeWeapon>
+      <SkillRequirementHint identifier="medical" level="40" />
+    </Item>
+</Items>
