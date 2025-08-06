@@ -15,12 +15,12 @@ Timer.Wait(function()
 	end
 	
 	if SERVER or (CLIENT and not Game.IsMultiplayer) then
-		--dofile(NTCE.Path.."/Lua/Scripts/Server/nthelperfunctionoverride.lua")
+		dofile(NTCE.Path.."/Lua/Scripts/Server/bonesremoval.lua")
 	end
 	
-	if CLIENT then
+	--if CLIENT then
         --dofile(NTCE.Path.."/Lua/Scripts/Client/.lua")
-	end
+	--end
 end, 1)
 
 

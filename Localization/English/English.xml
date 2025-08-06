@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <Override>
+    <afflictionname.la_bones_removed>Left arm bones removed</afflictionname.la_bones_removed>
+    <afflictionname.ra_bones_removed>Right arms bones removed</afflictionname.ra_bones_removed>
+    <afflictionname.ll_bones_removed>Left leg bones removed</afflictionname.ll_bones_removed>
+    <afflictionname.rl_bones_removed>Right leg bones removed</afflictionname.rl_bones_removed>
+    <afflictionname.t_bones_removed>Torso bones removed</afflictionname.t_bones_removed>
+    <afflictionname.h_bones_removed>Skull partially removed</afflictionname.h_bones_removed>
+  </Override>
+</infotexts>

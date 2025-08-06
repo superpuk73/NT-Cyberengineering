@@ -1,113 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Afflictions>
-	<!-- Right Forearm Fracture -->
-	<Affliction name="" identifier="right_forearm_fracture" description="" targets="human" limbspecific="true" indicatorlimb="RightArm" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="RightArm">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
+	<!-- Right Arm Bones Removed -->
+	<Affliction name="Right arm bones removed" identifier="ra_bones_removed" description="Right arm bones have been surgically removed" targets="human" limbspecific="true" indicatorlimb="RightArm" type="gaze" isbuff="false" showinhealthscannerthreshold="1" showiconthreshold="1" healableinmedicalclinic="false" maxstrength="100">
       <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
     </Affliction>
-	<!-- Right Hand Fracture -->
-	<Affliction name="" identifier="right_hand_fracture" description="" targets="human" limbspecific="true" indicatorlimb="RightArm" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="RightArm">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
+	<!-- Left Arm Bones Removed -->
+	<Affliction name="Left arm bones removed" identifier="la_bones_removed" description="Left arm bones have been surgically removed" targets="human" limbspecific="true" indicatorlimb="LeftArm" type="gaze" isbuff="false" showinhealthscannerthreshold="1" showiconthreshold="1" healableinmedicalclinic="false" maxstrength="100">
       <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
     </Affliction>
-	<!-- Left Forearm Fracture -->
-	<Affliction name="" identifier="left_forearm_fracture" description="" targets="human" limbspecific="true" indicatorlimb="LeftArm" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="LeftArm">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
+	<!-- Right Leg Bones Removed -->
+	<Affliction name="Right leg bones removed" identifier="rl_bones_removed" description="Right leg bones have been surgically removed" targets="human" limbspecific="true" indicatorlimb="RightLeg" type="gaze" isbuff="false" showinhealthscannerthreshold="1" showiconthreshold="1" healableinmedicalclinic="false" maxstrength="100">
       <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
     </Affliction>
-	<!-- Left Hand Fracture -->
-	<Affliction name="" identifier="left_hand_fracture" description="" targets="human" limbspecific="true" indicatorlimb="LeftArm" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="LeftArm">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
+	<!-- Left Leg Bones Removed -->
+	<Affliction name="Left leg bones removed" identifier="ll_bones_removed" description="Left leg bones have been surgically removed" targets="human" limbspecific="true" indicatorlimb="LeftLeg" type="gaze" isbuff="false" showinhealthscannerthreshold="1" showiconthreshold="1" healableinmedicalclinic="false" maxstrength="100">
       <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
     </Affliction>
-	<!-- Right Shin Fracture -->
-	<Affliction name="" identifier="right_shin_fracture" description="" targets="human" limbspecific="true" indicatorlimb="RightLegLeftLeg" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="RightLegLeftLeg">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
+	<!-- Torso Bones Removed -->
+	<Affliction name="Torso bones removed" identifier="t_bones_removed" description="Torso bones have been surgically removed" targets="human" limbspecific="true" indicatorlimb="Torso" type="gaze" isbuff="false" showinhealthscannerthreshold="1" showiconthreshold="1" healableinmedicalclinic="false" maxstrength="100">
       <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
     </Affliction>
-	<!-- Right Foot Fracture -->
-	<Affliction name="" identifier="right_foot_fracture" description="" targets="human" limbspecific="true" indicatorlimb="RightLegLeftLeg" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="RightLegLeftLeg">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
-      <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
-    </Affliction>
-	<!-- Left Shin Fracture -->
-	<Affliction name="" identifier="left_foot_fracture" description="" targets="human" limbspecific="true" indicatorlimb="LeftLeg" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="LeftLeg">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
-      <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
-    </Affliction>
-	<!-- Left Foot Fracture -->
-	<Affliction name="" identifier="left_foot_fracture" description="" targets="human" limbspecific="true" indicatorlimb="LeftLeg" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="LeftLeg">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
-      <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
-    </Affliction>
-	<!-- Frontal Skull Fracture -->
-	<Affliction name="" identifier="frontal_skull_fracture" description="" targets="human" limbspecific="true" indicatorlimb="Head" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="Head">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
-      <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
-    </Affliction>
-	<!-- Rear Skull Fracture -->
-	<Affliction name="" identifier="rear_skull_fracture" description="" targets="human" limbspecific="true" indicatorlimb="Head" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="Head">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
-      <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
-    </Affliction>
-	<!-- Pelvis Fracture -->
-	<Affliction name="" identifier="pelvis_fracture" description="" targets="human" limbspecific="true" indicatorlimb="Torso" type="fractures" showinhealthscannerthreshold="5" showiconthreshold="90" healableinmedicalclinic="true" basehealcost="65" maxstrength="100">
-      <Effect minstrength="0" maxstrength="6">
-        <StatusEffect target="Character" targetlimb="Torso">
-          <Conditional gypsumcast="eq 0" />
-        </StatusEffect>
-      </Effect>
-      <Effect minstrength="6" maxstrength="100" />
+	<!-- Skull Parts Removed -->
+	<Affliction name="Skull partially removed" identifier="h_bones_removed" description="Parts of skull have been surgically removed" targets="human" limbspecific="true" indicatorlimb="Head" type="gaze" isbuff="false" showinhealthscannerthreshold="1" showiconthreshold="1" healableinmedicalclinic="false" maxstrength="100">
       <icon texture="%ModDir%/Images/AfflictionIcons.png" sheetindex="6,2" sheetelementsize="128,128" origin="0,0" />
     </Affliction>
 </Afflictions>

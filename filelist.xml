@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="NT Cyberengineering" steamworkshopid="0000000000" corepackage="false" modversion="0.0.1" gameversion="1.9.8.0" installtime="idk lol" expectedhash="1C9F2725945AE4B0B0F334F4D117C82D">
+<contentpackage name="NT Cyberengineering" steamworkshopid="0000000000" corepackage="false" modversion="0.0.1" gameversion="1.9.8.0" installtime="idk lol" expectedhash="3A70A8110EE311CD1B8B3B3545A34368">
 	<Afflictions file="%ModDir%/Xml/Afflictions/Brain.xml" />
 	<Afflictions file="%ModDir%/Xml/Afflictions/Lungs.xml" />
 	<Afflictions file="%ModDir%/Xml/Afflictions/Surgery.xml" />
@@ -15,6 +15,8 @@
 	<Item file="%ModDir%/Xml/Items/Material.xml" />
 	<Item file="%ModDir%/Xml/Items/Organs.xml" />
 	<Item file="%ModDir%/Xml/Items/Surgery/Scalpels.xml" />
-	<Other file="%ModDir%/Lua/Scripts/nthelperfunctionsoverride.lua" />
 	<Other file="%ModDir%/Lua/Autorun/init.lua" />
+	<Other file="%ModDir%/Lua/Scripts/Server/bonesremoval.lua" />
+	<Other file="%ModDir%/Images/AfflictionIcons.png" />
+	<Text file="%ModDir%/Localization/English/English.xml" />
 </contentpackage>
